@@ -35,12 +35,6 @@ describe 'Testing the budget app' do
     find_element(:id, 'protect.budgetwatch:id/valueEdit').send_keys('9')
     find_elements(:id, 'protect.budgetwatch:id/action_save')[0].click
 
-    
-
-
-
-
-
   end
 
 
