@@ -11,8 +11,9 @@ Then("the budget page opens") do
 end
 
 When("I enter a budget") do
-  budgetpage.enter_name
-  budgetpage.enter_number
+  pending
+  # budgetpage.enter_name
+  # budgetpage.enter_number
 end
 
 When("save the budget") do
